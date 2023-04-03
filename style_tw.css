@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	height: 100vh;
+	width: 100%;
+	background-image: url(images/background.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-left: 5%;	 
+	padding-right: 5%;
+	box-sizing: border-box;
+	position: relative;
+}	
+.navbar{
+	width: 100%;
+	height: 15vh;
+	margin: auto;
+	display: flex;
+	font-family: MetaPlusLF;
+	align-items: center;
+}
+
+
+
+.logo{
+	width: 100px;
+	cursor: center;
+}
+nav{
+	flex: 1;
+	padding-left: 0px;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0px 20px;
+}	
+nav ul li a{
+	text-decoration: none;
+	color: #333;
+}
+
+.quick-access{
+	float: left;
+	width: 350px;
+	position: abosolute;
+	bottom: 0;
+	right: 10px; 	
+}
+.slider-frame{
+	overflow: hidden;
+	height: 400px;
+	width: 1400px;
+	margin-left: 0px;
+	margin-top:20px;
+}
+
+/*-------------slide animation ------------*/
+
+@-webkit-keyframes slide_animation{
+	0%{left:0px;}
+	10%{left:0px;}
+	20%{left:1350px;}
+	30%{left:1350px;}
+	40%{left:2700px;}
+	50%{left:2700px;}
+	60%{left:1350px;}
+	70%{left:1350px;}
+	80%{left:0px;}
+	90%{left:0px;}
+	100%{left:0px;}
+}
+.slide-images{
+	width: 58810px;
+	height: 400px;
+	margin: 0 0 0 -2700px;
+	position: relative;
+	-webkit-animation-name: slide_animation;
+	-webkit-animation-duration: 15s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-play-state: running;
+}
+
+.img-container{
+	height: 400px;
+	width: 1350px;
+	position: relative;
+	float: left;
+	bottom: 0px;
+}

@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: MetaPlusLF;
+	color: #333;
+}	
+
+.navbar{
+	width: 100%;
+	height: 20vh;
+	margin: auto;
+	display: flex;
+	font-family: MetaPlusLF;
+	align-items: center;
+	font-size: 20px;
+	/*text-transform: uppercase;*/
+}
+
+
+
+.logo{
+	width: 100px;
+	cursor: center;
+}
+nav{
+	flex: 1;
+	padding-left: 0px;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0px 20px;
+}	
+nav ul li a{
+	text-decoration: none;
+	color: #333;
+
+}
+
+body {
+	background: url('./Login_ background.jpg') no-repeat;
+	background-size: cover;
+}
+
+.login-form {
+		width: 500px;
+		top: 30%;
+		left: 30%;
+		transform: translate(-50%;, -50%);
+		position:absolute;
+}
+
+.login-form h1 {
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 40px 0;
+}
+
+.login-form p {
+	font-size: 20px;
+	margin: 15px 0;
+}
+
+.login-form input {
+	font-size: 16px;
+	width: 100%;
+	padding: 15px 10px;
+	border: 0;
+	outline: none;
+	border-radius: 5px;
+}
+
+.login-form button {
+	font-size: 18px;
+	font-weight: bold;
+	margin:20px 0;
+	padding: 10px 15px;
+	width: 50%;
+	border-radius: 5px;
+	border: 0;
+}

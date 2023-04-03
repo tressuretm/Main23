@@ -1,0 +1,62 @@
+body{
+	padding: 0;
+	margin: 0;
+	/*background-color: floralwhite;*/
+}
+.navbar{
+	width: 100%;
+	height: 15vh;
+	margin: auto;
+	display: flex;
+	font-family: MetaPlusLF;
+	align-items: center;
+}
+
+.logo{
+	width: 100px;
+	cursor: center;
+}
+
+
+nav{
+	flex: 1;
+	padding-left: 0px;
+
+	
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0px 20px;
+}	
+nav ul li a{
+	text-decoration: none;
+	color: #333;
+}
+
+.navbar2{
+	width: 100%;
+	height: 5vh;
+	margin: auto;
+		margin-top: 30px;
+	display: flex;
+	font-family: MetaPlusLF;
+	align-items: auto;
+	list-style: none;
+	color: #333;
+	text-decoration: none;
+}
+	
+h1{
+	margin-top: 0px;
+	margin-left: 20px;
+	font-size: 20px;
+	font-family: MetaPlusLF;
+	font-weight: bold;
+}
+	.PLC{
+	height: 150px;
+	cursor: center;
+	margin-left: 45px;
+}
+}
